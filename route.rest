@@ -1,0 +1,28 @@
+GET http://localhost:3000/user
+
+###
+
+GET http://localhost:3000/user/651bf5431eea049f37768f83
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "username":"hshxxx new",
+    "email":"tejasnxxx@gmail.com",
+    "password":"abcd@123400"
+}
+
+###
+
+PATCH http://localhost:3000/user/651bb6584152e6177ac822ad
+Content-Type: application/json
+
+{
+    "password":"3456"
+}
+
+###
+
+DELETE  http://localhost:3000/user/651bf5431eea049f37768f83
