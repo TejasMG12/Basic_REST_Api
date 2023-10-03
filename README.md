@@ -12,7 +12,7 @@ For User registration
 #install the necessary packages
 $ npm install
 
-#start the server 
+#start the database service 
 $ sudo service mongod start
 
 #run the server
